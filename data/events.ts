@@ -1,0 +1,56 @@
+import { Event } from "@/model/Event";
+
+export const events: Event[] = [
+  {
+    id: 1,
+    day: "Segunda",
+    date: 18,
+    time: "19h30",
+    title: "Culto de Oração",
+    direction: "Ir. Francisca e Ir. Kátia",
+    speaker: "-",
+    doorkeeper: "Ob. Fernando",
+  },
+  {
+    id: 2,
+    day: "Quarta",
+    date: 20,
+    time: "08h00",
+    title: "Consagração para toda igreja",
+    direction: "-",
+  },
+  {
+    id: 3,
+    day: "Quinta",
+    date: 21,
+    time: "19h30",
+    title: "Culto de Doutrina",
+    direction: "Pr. Adriano Rodrigues",
+    doorkeeper: "Ob. Fernando",
+  },
+  {
+    id: 4,
+    day: "Sábado",
+    date: 23,
+    time: "08h00",
+    title: "Consagração para os jovens",
+    direction: "Ir. Talia e Ir. Rafaela",
+  },
+  {
+    id: 5,
+    day: "Domingo",
+    date: 24,
+    time: "08h00",
+    title: "Escola Bíblica Dominical",
+    direction: "Ob. Garcia e Ob. Fernando",
+  },
+  {
+    id: 6,
+    day: "Domingo",
+    date: 24,
+    time: "18h00",
+    title: "Culto de Celebração",
+    direction: "Pr. Adriano Rodrigues",
+    doorkeeper: "Ob. Berg",
+  },
+];
