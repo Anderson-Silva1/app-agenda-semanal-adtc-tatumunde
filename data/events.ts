@@ -8,7 +8,7 @@ export const events: Event[] = [
     time: "19h30",
     title: "Culto de Oração",
     direction: "Ir. Francisca e Ir. Kátia",
-    speaker: "-",
+    speaker: "Ob. Wladison",
     doorkeeper: "Ob. Fernando",
   },
   {
@@ -38,6 +38,15 @@ export const events: Event[] = [
   },
   {
     id: 5,
+    day: "Sábado",
+    date: 23,
+    time: "17h00",
+    title: "Culto infantil",
+    direction: "Ir. Kelly e Ir. Chris",
+    doorkeeper: "Ob. Josian",
+  },
+  {
+    id: 6,
     day: "Domingo",
     date: 24,
     time: "08h00",
@@ -45,12 +54,12 @@ export const events: Event[] = [
     direction: "Ob. Garcia e Ob. Fernando",
   },
   {
-    id: 6,
+    id: 7,
     day: "Domingo",
     date: 24,
     time: "18h00",
     title: "Culto de Celebração",
     direction: "Pr. Adriano Rodrigues",
-    doorkeeper: "Ob. Berg",
+    doorkeeper: "Ob. Tanael",
   },
 ];
